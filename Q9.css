@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(#ffdad5,#fff7f9);
+}
+.feedback-form{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.feedback-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.feedback-left-title{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.feedback-left-title hr{
+    border: none;
+    width: 340px;
+    height: 5px;
+    background-color:#a363aa ;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.feedback-inputs-na{
+    width:400px;
+    height:50px;
+    border:none;
+    outline:none;
+    padding-left:25px;
+    font-weight:500;
+    color:#666;
+    border-radius: 50px;
+}
+.feedback-inputs-pa{
+    width:400px;
+    height:50px;
+    border:none;
+    outline:none;
+    padding-left:25px;
+    font-weight:500;
+    color:#666;
+    border-radius: 50px;
+}
+.feedback-inputs-em{
+    width:400px;
+    height:50px;
+    border:none;
+    outline:none;
+    padding-left:25px;
+    font-weight:500;
+    color:#666;
+    border-radius: 50px;
+}
+
+.feedback-inputs-em:focus{
+    border: 2px solid #ff994f;
+    color: #5d4eff;
+}
+.feedback-inputs-pa:focus{
+    border: 2px solid #ff994f;
+    color: #a1f77c;
+}
+.feedback-inputs-na:focus{
+    border: 2px solid #ff994f;
+    color: #ff544b;
+}
+.feedback-inputs::placeholder{
+    color: #a9a9a9;
+}
+.feedback-left button{
+    display: flex;
+    align-items:center;
+    padding: 15px 30px;
+    padding-top: 15px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(270deg,#ff994f,#fa6d86);
+
+}
+.feedback-left button:hover{
+    cursor: pointer;
+}
